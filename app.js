@@ -4,7 +4,7 @@ var express = require('express'),
     op = require('./op'),
     app = express();
 
-app.use(cors());
+app.use(cors(config.cors));
 
 app.post('/uptoken', function(req, res) {
     res.json({

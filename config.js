@@ -5,4 +5,8 @@ var qiniu = {
     domain: process.env.DOMAIN || '<DOMAIN>'
 };
 
+var cors = {
+    origin: 'https://get-link.xyz'
+}
+
 exports.qiniu = qiniu;
