@@ -9,7 +9,7 @@ app.use(cors(config.cors));
 app.post('/uptoken', function(req, res) {
     res.json({
         token: op.getUpToken(),
-        domain: config.qiniu.bucket
+        domain: config.qiniu.domain
     });
 });
 
