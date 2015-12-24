@@ -1,0 +1,18 @@
+{
+  "name": "node-qiniu-server",
+  "version": "1.0.0",
+  "author": "Cody Chan <int64ago@gmail.com>",
+  "description": "node-qiniu-server",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "qiniu": "^6.1.9"
+  },
+  "engines": {
+    "node": "4.2.x"
+  },
+  "license": "MIT"
+}
