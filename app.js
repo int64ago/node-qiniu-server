@@ -7,7 +7,10 @@ var express = require('express'),
 app.use(cors());
 
 app.post('/uptoken', function(req, res) {
-    res.send(op.getUpToken());
+    res.json({
+        token: op.getUpToken(),
+        domain: config.qiniu.bucket
+    });
 });
 
 app.listen(process.env.VCAP_APP_PORT || 3000);
