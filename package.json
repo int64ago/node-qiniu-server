@@ -4,16 +4,13 @@
   "author": "Cody Chan <int64ago@gmail.com>",
   "description": "node-qiniu-server",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
     "body-parser": "^1.14.2",
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "qiniu": "^6.1.9"
-  },
-  "engines": {
-    "node": "4.2.x"
   },
   "license": "MIT"
 }
